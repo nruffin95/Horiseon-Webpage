@@ -1,13 +1,16 @@
+/* universal selector that add styles to the entire webpage <header> */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* styles applied to everything inside the body element */
 body {
     background-color: #d9dcd6;
 }
 
+/* apply styles to <header> */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,16 +43,21 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+/* HEADER Style Ends */
 
+/* Styles applied to all anchor and P tags */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
 }
+/* Styles applied to all anchor and P tags end */
 
+
+/* Hero Style Start */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +67,9 @@ p {
     background-position: center;
 }
 
+/* Hero Style End */
+
+/* Float styles for images inside content section */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,13 +79,17 @@ p {
     float: right;
     margin-left: 25px;
 }
+/* Float styles for images inside content section ends */
 
+/* Styles added to the content Section */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/* Styles added to the benifit Section ends*/
 
+/* Styles added to the benifit Section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -101,7 +116,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* Styles added to the benifit Section ends */
 
+/* Styles added to the article section of hero */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -119,7 +136,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* Styles added to the article section of hero */
 
+/* Styles made to the Footer*/
 .footer {
     padding: 30px;
     clear: both;
@@ -130,3 +149,5 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+/* HORISEON STYLES END */
